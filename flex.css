@@ -1,0 +1,94 @@
+html,
+body {
+  padding:0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+/*
+  FLEX
+*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid;
+  width: 55%;
+  height: 30em;
+  justify-content: center;
+}
+
+.flex-item, .block-item, .float-item {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  opacity: 0.8;
+  width: 5em;
+}
+
+/*
+  BLOCK
+*/
+.block-container {
+  /* display: block; DEFAULT */
+  border: 3px solid;
+  width: 55%;
+  height: 30em;
+}
+
+.block-item {
+  display: inline-block;
+}
+
+/*
+  FLOAT
+*/
+.float-container {
+  float: left;
+  border: 3px solid;
+  width: 55%;
+  height: 30em;
+}
+
+.float-item {
+  float: left;
+}
+
+
+
+/*
+  FLEX,BLOCK AND FLOAT ITEMS
+*/
+.flex-item-01, .block-item-01, .float-item-01{
+  background-color: fuchsia;
+}
+
+.flex-item-02, .block-item-02, .float-item-02{
+  background-color: green;
+}
+
+.flex-item-03, .block-item-03, .float-item-03{
+  background-color: violet;
+}
+
+.flex-item-04, .block-item-04, .float-item-04{
+  background-color: steelblue;
+}
+
+.flex-item-05, .block-item-05, .float-item-05{
+  background-color: orange;
+}
+
+.flex-item-06, .block-item-06, .float-item-06{
+  background-color: greenyellow;
+}
+
+.flex-item-07, .block-item-07, .float-item-07{
+  background-color: firebrick;
+}
+
+.flex-item-08, .block-item-08, .float-item-08{
+  background-color: blue;
+}
+
+
